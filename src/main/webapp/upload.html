@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <h1>업로드</h1>
+    <form action="upload" method="post" enctype="multipart/form-data">
+        File:
+        <input type="file" name="file" id="file">
+        업로드할 서버 경로:
+        <input type="text" name="destination" value="C:/Dev/spring-boot-web/servlet/src/main/upload">
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
